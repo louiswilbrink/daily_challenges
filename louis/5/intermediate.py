@@ -14,6 +14,7 @@ text = text.translate(string.maketrans("",""), string.punctuation)
 
 # Split entire text into a list of words.
 words = text.split(' ')
+
 compareWords = words
 
 # Collect anagrams in a dictionary.
